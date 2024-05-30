@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "52781ccd-03bc-41b7-b32b-3c495a041659",
+		"name": "/upload",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23175255"
+	},
+	"item": [
+		{
+			"name": "Upload File",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "multipart/form-data",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/manas/OneDrive/Desktop/manas.txt"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{baseURL}}/upload",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Read File",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseURL}}/files/manas.txt",
+					"host": [
+						"{{baseURL}}"
+					],
+					"path": [
+						"files",
+						"manas.txt"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
