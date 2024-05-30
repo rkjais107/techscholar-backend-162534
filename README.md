@@ -22,8 +22,8 @@ This project is a sub-part of an e-commerce Backend application that provides an
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/techscholar-backend-<6-digit-random>.git
-   cd techscholar-backend-<6-digit-random>
+   git clone https://github.com/rkjais107/techscholar-backend-162534.git
+   cd techscholar-backend-162534
    ```
 
 2. **Create a virtual environment**:
